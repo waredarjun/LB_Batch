@@ -42,7 +42,15 @@ int main()
 
     bRet = chkEven(iValue);
 
-    Display(iValue);
+    if(bRet == TRUE)
+    {
+        printf("even number");
+    }
+    else
+    {
+        printf("odd number");
+    }
+   
 
     return 0;
 }
