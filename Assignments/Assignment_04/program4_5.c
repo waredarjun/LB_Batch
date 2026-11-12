@@ -33,6 +33,8 @@ int main()
     printf("enter a number : ");
     scanf("%d",&iValue);
 
+    CheckDivisibility(iValue);
+
 
     return EXIT_SUCCESS;
 }

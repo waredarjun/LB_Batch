@@ -32,5 +32,8 @@ int main()
     int iValue2 = 0;
     printf("Enter two number : ");
     scanf("%d %d",&iValue1,&iValue2);
+
+    FindGreater(iValue1,iValue2);
+    
     return EXIT_SUCCESS;
 }

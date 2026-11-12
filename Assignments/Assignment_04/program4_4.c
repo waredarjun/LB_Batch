@@ -33,6 +33,8 @@ int main()
     printf("enter your age : ");
     scanf("%d",&iAge);
 
+    CheckVotingEligibility(iAge);
+
 
 
     return EXIT_SUCCESS;
